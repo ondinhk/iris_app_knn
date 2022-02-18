@@ -1,1 +1,1 @@
-web: gunicorn --chdir src app.py --log-file -
+web: gunicorn app:app
